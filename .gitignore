@@ -1,0 +1,4 @@
+frontend/node_modules
+data/full_dict_preparation/full_dict.tsv
+data/full_dict_preparation/full_dict_small.tsv
+data/full_dict_preparation/full_dict.json

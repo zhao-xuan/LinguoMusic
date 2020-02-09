@@ -1,0 +1,41 @@
+import './index.css';
+
+import React from 'react';
+import { Layout, Menu, Typography, Button } from 'antd';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from 'react-router-dom';
+
+import LyricPlayer from './components/LyricPlayer';
+import MusicPlayer from './components/MusicPlayer';
+
+const { Header, Sider, Content, Footer } = Layout;
+
+
+export default function Template() {
+    return (
+        <Router>
+            <Layout>
+                <Sider>sider</Sider>
+                <Layout>
+                    <Header>Header</Header>
+                    <Content>
+                        <Switch path="/playlist">
+
+                        </Switch>
+                        <Switch path="/playing">
+
+                        </Switch>
+                        <Switch path="/" exact={true}>
+                            <LyricPlayer />
+                        </Switch>
+                    </Content>
+                    <Footer><MusicPlayer /></Footer>
+                </Layout>
+            </Layout>
+        </Router>
+    )
+}

@@ -1,5 +1,6 @@
 # LinguoMusic
 IC HACK 20 Project by Peter Zhang(Robinson College, University of Cambridge) and Tom Zhao(Imperial College First Year).
+A quick demo is available on our Devpost page: https://devpost.com/software/linguomusic
 ## Inspiration
 
 Want to learn a new language when you listen to music? We are delighted to announce LinguoMusic that displays quick English translation right on the lyrics for possibly unfamiliar words for language learners. Music is one of the best ways to relax, but it's also the best way to learn a new language. Japanese, Korean, Mandarin characters, you can choose which language you want to learn! Just import your music and lyrics and it will do the job!
